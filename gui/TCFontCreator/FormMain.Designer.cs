@@ -74,7 +74,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(53, 12);
             this.label7.TabIndex = 5;
-            this.label7.Text = "選擇目標";
+            this.label7.Text = "选择目标";
             // 
             // comboBoxSys
             // 
@@ -82,13 +82,13 @@
             this.comboBoxSys.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxSys.FormattingEnabled = true;
             this.comboBoxSys.Items.AddRange(new object[] {
-            "生成簡轉繁字體",
-            "使用同義字補全字庫",
-            "合併簡體 GB2312、繁體 GB2312",
-            "合併字體1、字體2",
-            "日本字體新字形轉爲舊字形(僅部分字體)",
-            "生成繁轉簡字體",
-            "生成簡轉繁字體臺灣詞彙"});
+            "简转繁",
+            "同义字字库补全",
+            "合并简繁GB1232",
+            "合并两个字体",
+            "日本字体新字形转旧字形",
+            "繁转简",
+            "繁转简(台湾用语)"});
             this.comboBoxSys.Location = new System.Drawing.Point(77, 9);
             this.comboBoxSys.Name = "comboBoxSys";
             this.comboBoxSys.Size = new System.Drawing.Size(292, 20);
@@ -101,7 +101,7 @@
             this.buttonStart.Name = "buttonStart";
             this.buttonStart.Size = new System.Drawing.Size(75, 23);
             this.buttonStart.TabIndex = 11;
-            this.buttonStart.Text = "開始";
+            this.buttonStart.Text = "开始";
             this.buttonStart.UseVisualStyleBackColor = true;
             this.buttonStart.Click += new System.EventHandler(this.ButtonStart_Click);
             // 
@@ -112,7 +112,7 @@
             this.labeli1.Name = "labeli1";
             this.labeli1.Size = new System.Drawing.Size(71, 12);
             this.labeli1.TabIndex = 1;
-            this.labeli1.Text = "* 輸入字體1";
+            this.labeli1.Text = "* 输入字体1";
             // 
             // labelo
             // 
@@ -121,7 +121,7 @@
             this.labelo.Name = "labelo";
             this.labelo.Size = new System.Drawing.Size(65, 12);
             this.labelo.TabIndex = 2;
-            this.labelo.Text = "* 輸出字體";
+            this.labelo.Text = "* 输出字体";
             // 
             // textBoxIn
             // 
@@ -145,11 +145,11 @@
             // 
             // openFileDialog1
             // 
-            this.openFileDialog1.Filter = "字體文件|*.ttf;*.otf|所有文件|*.*";
+            this.openFileDialog1.Filter = "字体文件|*.ttf;*.otf|所有文件|*.*";
             // 
             // saveFileDialog1
             // 
-            this.saveFileDialog1.Filter = "字體文件|*.ttf;*.otf|所有文件|*.*";
+            this.saveFileDialog1.Filter = "字体文件|*.ttf;*.otf|所有文件|*.*";
             // 
             // checkBoxInfo
             // 
@@ -158,7 +158,7 @@
             this.checkBoxInfo.Name = "checkBoxInfo";
             this.checkBoxInfo.Size = new System.Drawing.Size(102, 16);
             this.checkBoxInfo.TabIndex = 5;
-            this.checkBoxInfo.Text = "更新字體信息:";
+            this.checkBoxInfo.Text = "更新字体信息:";
             this.checkBoxInfo.UseVisualStyleBackColor = true;
             this.checkBoxInfo.CheckedChanged += new System.EventHandler(this.CheckBoxInfo_CheckedChanged);
             // 
@@ -228,7 +228,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(65, 12);
             this.label3.TabIndex = 1;
-            this.label3.Text = "* 字體名稱";
+            this.label3.Text = "* 字体名称";
             // 
             // label8
             // 
@@ -237,7 +237,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(53, 12);
             this.label8.TabIndex = 14;
-            this.label8.Text = "使用內核";
+            this.label8.Text = "使用内核";
             // 
             // comboBoxApp
             // 
@@ -260,7 +260,7 @@
             this.checkBoxYitizi.Name = "checkBoxYitizi";
             this.checkBoxYitizi.Size = new System.Drawing.Size(156, 16);
             this.checkBoxYitizi.TabIndex = 10;
-            this.checkBoxYitizi.Text = "同時完成同義字補全字庫";
+            this.checkBoxYitizi.Text = "同义字补全字库";
             this.checkBoxYitizi.UseVisualStyleBackColor = true;
             // 
             // panel1
@@ -312,7 +312,7 @@
             this.linkLabel1.Size = new System.Drawing.Size(53, 12);
             this.linkLabel1.TabIndex = 22;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "項目主頁";
+            this.linkLabel1.Text = "原项目主页";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel1_LinkClicked);
             // 
             // panelTC
@@ -333,17 +333,17 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(113, 12);
             this.label1.TabIndex = 19;
-            this.label1.Text = "選擇要使用的異體字";
+            this.label1.Text = "使用的异体字";
             // 
             // comboBoxVar
             // 
             this.comboBoxVar.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxVar.FormattingEnabled = true;
             this.comboBoxVar.Items.AddRange(new object[] {
-            "默認",
-            "臺灣",
-            "香港",
-            "舊字形"});
+            "默认",
+            "中国台湾",
+            "中国香港",
+            "日本旧字形"});
             this.comboBoxVar.Location = new System.Drawing.Point(125, 3);
             this.comboBoxVar.Name = "comboBoxVar";
             this.comboBoxVar.Size = new System.Drawing.Size(205, 20);
@@ -356,16 +356,16 @@
             this.labelMilti.Name = "labelMilti";
             this.labelMilti.Size = new System.Drawing.Size(113, 12);
             this.labelMilti.TabIndex = 19;
-            this.labelMilti.Text = "對簡繁一對多的處理";
+            this.labelMilti.Text = "如何处理简繁一对多";
             // 
             // comboBoxMulti
             // 
             this.comboBoxMulti.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxMulti.FormattingEnabled = true;
             this.comboBoxMulti.Items.AddRange(new object[] {
-            "不處理一對多",
-            "使用單一常用字",
-            "使用詞彙正確一簡對多繁"});
+            "不处理",
+            "用常用字替换",
+            "结合词汇替换"});
             this.comboBoxMulti.Location = new System.Drawing.Point(125, 33);
             this.comboBoxMulti.Name = "comboBoxMulti";
             this.comboBoxMulti.Size = new System.Drawing.Size(205, 20);
@@ -379,7 +379,7 @@
             this.linkLabelOut.Size = new System.Drawing.Size(29, 12);
             this.linkLabelOut.TabIndex = 18;
             this.linkLabelOut.TabStop = true;
-            this.linkLabelOut.Text = "選擇";
+            this.linkLabelOut.Text = "选择";
             this.linkLabelOut.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabelOut_LinkClicked);
             // 
             // linkLabelIn2
@@ -390,7 +390,7 @@
             this.linkLabelIn2.Size = new System.Drawing.Size(29, 12);
             this.linkLabelIn2.TabIndex = 18;
             this.linkLabelIn2.TabStop = true;
-            this.linkLabelIn2.Text = "選擇";
+            this.linkLabelIn2.Text = "选择";
             this.linkLabelIn2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabelIn2_LinkClicked);
             // 
             // linkLabelIn
@@ -401,7 +401,7 @@
             this.linkLabelIn.Size = new System.Drawing.Size(29, 12);
             this.linkLabelIn.TabIndex = 18;
             this.linkLabelIn.TabStop = true;
-            this.linkLabelIn.Text = "選擇";
+            this.linkLabelIn.Text = "选择";
             this.linkLabelIn.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabelIn_LinkClicked);
             // 
             // labeli2
@@ -411,7 +411,7 @@
             this.labeli2.Name = "labeli2";
             this.labeli2.Size = new System.Drawing.Size(71, 12);
             this.labeli2.TabIndex = 1;
-            this.labeli2.Text = "* 輸入字體2";
+            this.labeli2.Text = "* 输入字体2";
             // 
             // textBoxIn2
             // 

@@ -215,7 +215,7 @@ namespace TCFontCreator
             }
             panelMain.Enabled = false;
             Cursor = Cursors.WaitCursor;
-            Text = "正在處理，請耐心等待...";
+            Text = "正在处理...";
             err = "";
             outinfo = "";
             thRun = new System.Threading.Thread(ThRun);
@@ -261,21 +261,21 @@ namespace TCFontCreator
                         }
                         else
                         {
-                            MessageBox.Show(this, "出現錯誤！\r\n" + err, "提示", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show(this, "错误！\r\n" + err, "提示", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
                     else if (!string.IsNullOrWhiteSpace(err))
                     {
-                        MessageBox.Show(this, "失敗！\r\n" + err, "提示", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(this, "失败！\r\n" + err, "提示", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                     else
                     {
-                        MessageBox.Show(this, "處理完畢，但無法確定是否成功。", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show(this, "处理完毕，但无法确定是否成功。", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
                 else
                 {
-                    MessageBox.Show(this, "失敗！\r\n" + err, "提示", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(this, "失败！\r\n" + err, "提示", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                 }
             }));
